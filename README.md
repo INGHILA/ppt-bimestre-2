@@ -7,16 +7,13 @@ Un juego interactivo por consola que permite jugar Piedra-Papel-Tijera en dos mo
 ## 📋 Tabla de Contenidos
 - [Características](#-características)
 - [Requisitos](#-requisitos)
-- [Instalación](#-instalación)
 - [Cómo Jugar](#-cómo-jugar)
 - [Modos de Juego](#-modos-de-juego)
 - [Estructura del Código](#-estructura-del-código)
 - [Archivos Generados](#-archivos-generados)
 - [Comandos del Menú](#-comandos-del-menú)
 - [Explicación del Código](#-explicación-del-código)
-- [Mejoras Pendientes](#-mejoras-pendientes)
 - [Contribución](#-contribución)
-- [Licencia](#-licencia)
 
 ---
 
