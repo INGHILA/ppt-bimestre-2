@@ -4,7 +4,7 @@ Un juego interactivo por consola que permite jugar Piedra-Papel-Tijera en dos mo
 
 ---
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 - [Características](#-características)
 - [Requisitos](#-requisitos)
 - [Cómo Jugar](#-cómo-jugar)
@@ -17,7 +17,7 @@ Un juego interactivo por consola que permite jugar Piedra-Papel-Tijera en dos mo
 
 ---
 
-## ✨ Características
+##  Características
 
 - **Dos modos de juego**: Clásico (3 opciones) y Secreto (5 opciones)
 - **Dos tipos de partida**: 
@@ -32,7 +32,7 @@ Un juego interactivo por consola que permite jugar Piedra-Papel-Tijera en dos mo
 
 ---
 
-## 📦 Requisitos
+##  Requisitos
 
 - **Compilador C++11 o superior** (GCC, Clang, MSVC)
 - **Sistema operativo**: Windows, Linux o macOS
