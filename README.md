@@ -127,7 +127,7 @@ Estructura del Código
 │
 └── main()                    # Bucle principal del juego
 ```
-## 📂 Archivos Generados
+##  Archivos Generados
 
 El programa crea y administra automáticamente los siguientes archivos en formato CSV para guardar la información:
 
