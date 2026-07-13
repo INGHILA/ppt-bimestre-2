@@ -127,17 +127,21 @@ Estructura del Código
 │
 └── main()                    # Bucle principal del juego
 ```
-Archivos Generados
-El programa crea y administra los siguientes archivos:
+## 📂 Archivos Generados
 
-Archivo	Descripción
-Juego actual.txt	Estadísticas de la sesión actual (se resetea al salir)
-historial.txt	Top 10 jugadores con mejores victorias acumuladas
+El programa crea y administra automáticamente los siguientes archivos en formato CSV para guardar la información:
 
+| Archivo | Descripción |
+| :--- | :--- |
+| **`Juego actual.txt`** | Estadísticas de la sesión activa (mantiene la persistencia entre ejecuciones). |
+| **`historial.txt`** | Top 10 jugadores con mejores victorias acumuladas de por vida. |
+
+### Estructura de guardado (`Juego actual.txt` / `historial.txt`)
+```csv
 Jugador,Vic_CPU,Der_CPU,Emp_CPU,Vic_VS,Der_VS,Emp_VS
 Juan,5,3,2,4,1,0
-Maria,3,4,1,2,2,1
-
+María,3,4,1,2,2,1
+```
 Opción	Descripción
 0	Salir (guarda automáticamente)
 1	Jugar vs CPU (modo clásico)
