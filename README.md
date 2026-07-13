@@ -203,12 +203,6 @@ void guardarMarcadores(jugador& j1, jugador& j2) {
     // Escribe los datos en formato CSV
 }
 Propósito: Guarda las estadísticas en un archivo de texto para cargarlas en futuras ejecuciones
-
-Ejemplo del Historial
-text
-================================================================================
-                            HISTORIAL GENERAL DE JUGADORES (TOP 10)
-================================================================================
 Jugador     | Mod: vs CPU (V/D/E)   | Mod: J1 vs J2 (V/D/E) | Total Partidas
 --------------------------------------------------------------------------------
 Juan        | 5/3/2                  | 4/1/0                 | 15
