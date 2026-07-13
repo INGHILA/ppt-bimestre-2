@@ -79,7 +79,8 @@ Spock vence a Tijera y Piedra
 
 Estructura del Código
 
-├── jugador (struct)           # Datos del jugador actual
+```text
+├── jugador (struct) # Datos del jugador actual
 │   ├── nombre
 │   ├── eleccion
 │   ├── victoriasCPU
@@ -89,7 +90,7 @@ Estructura del Código
 │   ├── derrotasVS
 │   └── empatesVS
 │
-├── historialJugador (struct)  # Datos para el historial
+├── historialJugador (struct) # Datos para el historial
 │   ├── nombre
 │   ├── victoriasCPU
 │   ├── derrotasCPU
@@ -100,31 +101,32 @@ Estructura del Código
 │   └── totalPartidas
 │
 ├── Funciones de utilidad
-│   ├── limpiarBuffer()        # Limpia el buffer de entrada
-│   ├── obtenerEntradaValida() # Valida entrada numérica
-│   └── imprimirMenu()         # Muestra el menú principal
+│   ├── limpiarBuffer()       # Limpia el buffer de entrada
+│   ├── obtenerEntradaValida()# Valida entrada numérica
+│   └── imprimirMenu()        # Muestra el menú principal
 │
 ├── Funciones de juego
-│   ├── jugarContraCPU()       # Modo vs CPU
-│   └── jugarVS()              # Modo vs Jugador
+│   ├── jugarContraCPU()      # Modo vs CPU
+│   └── jugarVS()             # Modo vs Jugador
 │
 ├── Funciones de evaluación
-│   ├── evaluarNormal()        # Lógica clásica
-│   └── evaluarSecreto()       # Lógica extendida
+│   ├── evaluarNormal()       # Lógica clásica (3 opciones)
+│   └── evaluarSecreto()      # Lógica extendida (5 opciones)
 │
 ├── Funciones de persistencia
-│   ├── guardarMarcadores()    # Guarda en "Juego actual.txt"
-│   ├── cargarMarcadores()     # Carga desde archivo
-│   ├── guardarEnHistorial()   # Actualiza historial
-│   ├── guardarJugadoresEnHistorial() # Guarda ambos jugadores
-│   └── cargarHistorial()      # Carga historial
+│   ├── guardarMarcadores()   # Guarda en "Juego actual.txt"
+│   ├── cargarMarcadores()    # Carga desde archivo
+│   ├── guardarEnHistorial()  # Actualiza historial global
+│   ├── guardarJugadoresEnHistorial()
+│   └── cargarHistorial()     # Carga historial general
 │
 ├── Funciones de gestión
-│   ├── resetearEstadisticas() # Reinicia estadísticas
-│   ├── cambiarJugadores()     # Cambia jugadores activos
-│   └── mostrarHistorial()     # Muestra el top 10
+│   ├── resetearEstadisticas()# Reinicia estadísticas de sesión
+│   ├── cambiarJugadores()    # Cambia jugadores activos
+│   └── mostrarHistorial()    # Muestra el top 10
 │
-└── main()                     # Bucle principal del juego
+└── main()                    # Bucle principal del juego
+```
 Archivos Generados
 El programa crea y administra los siguientes archivos:
 
